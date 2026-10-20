@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #e0ebfa;
+}
+
+header {
+    color: white;
+    background-color: #2563eb;
+    padding: 20px;
+    margin: 10px;
+}
+
+footer {
+    color: white;
+    background-color: #2563eb;
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    margin:10px;
+}
+main {
+    display: flex;
+    justify-content: center;
+    color: #021b50;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#inscricao {
+    background-color: white;
+    width: 500px;
+    padding: 20px;
+    margin: 20px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #94a3b8;
+    border-radius: 8px;
+}
+
+input {
+    width: auto;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 2px solid #2563eb;
+}
+
+
+.power {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+button {
+    background-color: #f70c00;
+    color: white;
+    border: 0;
+    border-radius: 8px;
+    padding: 12px;
+}

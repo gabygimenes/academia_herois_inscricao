@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Heróis</title>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Academia de Heróis</h1>
+            <p>Inscreva-se para participar da próxima missão</p>
+        </header>
+        <main>
+            <section id="inscricao">
+                <!-- Os campos ficam aqui dentro -->
+                <form action="#" method="get">
+                    <h2>Faça sua inscrição</h2>
+                    <label for="nome">Nome do herói</label>
+                    <input id="nome" name="nome" type="text" />
+
+                    <label for="email">E-mail</label>
+                    <input id="email" name="email" type="email" />
+
+                    <label for="idade">Idade</label>
+                    <input id="idade" name="idade" type="number" />
+
+                    <label for="equipe">Escolha sua equipe</label>
+                    <select id="esquipe" name="equipe">
+                        <option>Vingadores</option>
+                        <option>Liga da Justiça</option>
+                        <option>Quarteto Fantástico</option>
+                        <option>Guardiões da Galáxia</option>
+                        <option>Jovens Titãs</option>
+                    </select>
+
+                    <section id="pp">
+                        <h3>Qual poder você prefere?</h3>
+
+                        <article class="power">
+                            <input id="voar" name="poder" type="radio" />
+                            <label for="voar">Voar</label>
+                        </article>
+
+                        <article class="power">
+
+                            <input id="supervelocidade" name="poder" type="radio" />
+                            <label for="supervelocidade">Supervelocidade</label>
+                        </article>
+
+                        <article class="power">
+                            <input id="superforca" name="poder" type="radio" />
+                            <label for="superforca">Superforça</label>
+                        </article>
+                        <article class="power">
+                            <input id="novidades" name="novidades" type="checkbox" />
+                            <label for="novidades">Quero receber novas missões</label>
+                        </article>
+                    </section>
+
+                    <label for="expectativa">Por que você quer ser um herói?</label>
+                    <textarea id="expectativa" name="expectativa" rows="4"></textarea>
+
+                    <button type="submit">Enviar inscrição</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>Prática de formulários HTML</p>
+        </footer>
+    </body>
+</html>
